@@ -1,0 +1,9 @@
+Question - 1
+
+Converting a camera feed to HSV is better than using RGB because it separates color from brightness. In RGB, changes in lighting can affect color values, making detection unreliable. In HSV, the system can focus on hue and saturation, which represent the actual color, while ignoring brightness. This makes lane detection more easy
+Question - 2
+
+The Bird’s Eye View (BEV) transformation converts the camera image into a top-down view. It removes perspective distortion, so parallel lines remain parallel instead of appearing to meet. This makes the scene easier to understand as a flat 2D space. As a result, tasks like measuring distance and planning paths become simpler and more accurate.
+Question - 3
+
+Obstacle inflation is used to make navigation safer by accounting for the robot’s size. In path planning, the robot is often treated like a single point, but in reality it has width and length. By expanding obstacles on the map, we create a safety margin so the robot doesn’t get too close and collide. This helps the robot choose safer paths instead of trying to pass through tight spaces.
